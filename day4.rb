@@ -215,9 +215,16 @@ true || 1 == 1
 1 == 1 && (!("testing" == 1 || 1 == 0))
 "chunky" == "bacon" && (!(3 == 4 || 3 == 3))
 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))
+puts "solve..........1"
 
 3 != 4   && !("TESTING" != "TESTING" || "RUBYs" == "RUBY")
 
 "TESTING" != "TEST" && !("tru"=="true"|| "RUB" == "RUBY")
 
-"RUBY" == "RUBY": TRUE && !(TRUE || TRUE)
+"RUBY" == "RUBY" || !("r"=="r" || "s"=="s")
+puts "solve..........2"
+("ruby"=="ruby"||"yes"=="yes")&&!("on"=="on")
+puts "solve..........3"
+!("no"=="no")&&!(3==3)
+puts "solve..........4"
+7==4&&!("y"=="y"||"s"=="s")
